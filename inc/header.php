@@ -11,7 +11,18 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="index.php">
-       <i class="bi bi-envelope-paper-fill"></i>Flash News </a>
+        <i class="bi bi-envelope-paper-fill"></i> Flash News
+      </a>
+
+      <!-- Menu HOME dengan ikon -->
+      <ul class="navbar-nav ms-3">
+        <li class="nav-item">
+          <a class="nav-link active d-flex align-items-center" href="index.php">
+            <i class="bi bi-house-door-fill me-1"></i> Home
+          </a>
+        </li>
+      </ul>
+
       <form class="d-flex ms-auto" action="search.php" method="GET">
         <input class="form-control me-2" type="search" placeholder="Cari berita..." name="q">
         <button class="btn btn-light" type="submit">🔍</button>
